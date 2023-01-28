@@ -37,9 +37,7 @@ fig, axs = plt.subplots(4, 4, figsize=(24, 24))
 
 for i in range(4):
     axs[0, i].set_xlabel(datasets[i][2])
-    if i != 3:
-        axs[i, 0].set_ylabel(algorithms[i][1])
-
+    axs[i, 0].set_ylabel(algorithms[i][1]
     axs[0, i].xaxis.set_label_position('top')
 
 for i in range(4):
