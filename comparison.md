@@ -48,7 +48,8 @@ for i in range(4):
 plt.show()
 ```
 ### Результат работы   
-<img width="1151" alt="image" src="https://user-images.githubusercontent.com/71382254/215250247-f65624cd-400e-48ba-8520-0217d02a3daa.png">
+<img width="1082" alt="image" src="https://user-images.githubusercontent.com/71382254/215264377-1284a790-9d42-4d93-824c-9c868bb1b59b.png"><img width="1082" alt="image" src="https://user-images.githubusercontent.com/71382254/215264425-aa2cf277-58b0-4798-9c67-aa225fca03c3.png">
+
 
 ### Заключение
 Точность tSNE алгоритма лучше чем у алгоритмов PCA и SVD, но он уступает им по скорости. UMAP алгоритм является более оптимальным алгоритмом, учитывая критерии точности и времени работы.
